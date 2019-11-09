@@ -1,5 +1,6 @@
-package microservices.book.multiplication.service;
+package microservices.book.multiplication.v1.service;
 
+import microservices.book.multiplication.v1.service.RandomGeneratorService;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -10,8 +11,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-
-import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

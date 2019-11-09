@@ -1,13 +1,14 @@
-package microservices.book.multiplication.service;
+package microservices.book.multiplication.v1.service;
 
-import microservices.book.multiplication.domain.Multiplication;
+import microservices.book.multiplication.v1.domain.Multiplication;
+import microservices.book.multiplication.v1.service.MultiplicationServiceImpl;
+import microservices.book.multiplication.v1.service.RandomGeneratorService;
 import org.assertj.core.api.Assertions;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.given;
 
 public class MultiplicationServiceImplTest {

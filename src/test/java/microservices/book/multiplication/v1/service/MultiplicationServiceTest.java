@@ -1,7 +1,8 @@
-package microservices.book.multiplication.service;
+package microservices.book.multiplication.v1.service;
 
-import microservices.book.multiplication.domain.Multiplication;
-import org.assertj.core.api.Assertions;
+import microservices.book.multiplication.v1.domain.Multiplication;
+import microservices.book.multiplication.v1.service.MultiplicationService;
+import microservices.book.multiplication.v1.service.RandomGeneratorService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +11,6 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import static org.assertj.core.api.Assertions.*;
-import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.given;
 
 @RunWith(SpringRunner.class)

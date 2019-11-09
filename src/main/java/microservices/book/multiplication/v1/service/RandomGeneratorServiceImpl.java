@@ -1,4 +1,4 @@
-package microservices.book.multiplication.service;
+package microservices.book.multiplication.v1.service;
 
 import org.springframework.stereotype.Service;
 

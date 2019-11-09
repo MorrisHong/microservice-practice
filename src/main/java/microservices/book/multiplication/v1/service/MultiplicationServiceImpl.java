@@ -1,6 +1,6 @@
-package microservices.book.multiplication.service;
+package microservices.book.multiplication.v1.service;
 
-import microservices.book.multiplication.domain.Multiplication;
+import microservices.book.multiplication.v1.domain.Multiplication;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

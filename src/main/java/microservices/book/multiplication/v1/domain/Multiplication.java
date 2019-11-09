@@ -1,4 +1,4 @@
-package microservices.book.multiplication.domain;
+package microservices.book.multiplication.v1.domain;
 
 public class Multiplication {
 
