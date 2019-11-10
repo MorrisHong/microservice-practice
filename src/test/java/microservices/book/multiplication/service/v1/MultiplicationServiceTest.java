@@ -1,4 +1,4 @@
-package microservices.book.multiplication.v1.service;
+package microservices.book.multiplication.service.v1;
 
 import microservices.book.multiplication.v1.domain.Multiplication;
 import microservices.book.multiplication.v1.service.MultiplicationService;
@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.BDDMockito.given;
 
 @RunWith(SpringRunner.class)
