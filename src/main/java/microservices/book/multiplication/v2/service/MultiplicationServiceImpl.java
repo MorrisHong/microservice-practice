@@ -3,9 +3,11 @@ package microservices.book.multiplication.v2.service;
 import microservices.book.multiplication.v2.domain.Multiplication;
 import microservices.book.multiplication.v2.domain.MultiplicationResultAttempt;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 @Service
+@Primary
 public class MultiplicationServiceImpl implements MultiplicationService {
     private RandomGeneratorService randomGeneratorService;
 
